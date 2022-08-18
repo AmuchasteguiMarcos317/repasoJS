@@ -13,7 +13,13 @@ if(cantidad>0){
     marca = prompt('Ingrese la marca de la moto '+i+' :')
 }
     let modelo = "";
-    while(modelo.length<2)
+    while(modelo.length<2){
     modelo = prompt('Ingrese el modelo de '+marca+' :')
+}
+    let foto = "";
+    while(foto.length<5){
+        foto = prompt ('Ingrese la foto de la moto '+marca+' y modelo '+modelo+':')
+    }
+
 
 }
